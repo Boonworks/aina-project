@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SVT Terminale Enseignement Scientifique</title>
+    <meta name="description" content="Cours, activités et ressources de SVT du collège au lycée." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="..//style.css" />
+</head>
+<body>
+    
+  <!-- =========== Nav Bar =========== -->
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <img src="img/logo.png">
+                <span>Naturä</span>
+           </a>
+            <nav class="menu" aria-label="Navigation principale">
+                <a class="btn btn--small" href="index.html">Accueil</a>  
+                <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">☀️</button>
+            </nav>
+        </div>
+    </header>
+
+  <!-- =========== Hero =========== -->
+    <section class="hero">
+        <div class="container hero__inner">
+            <div class="hero__text">
+                <h1>Terminale Enseignement Scientifique</h1>
+                <p>Les cours, les activités et leurs corrigés pour explorer la SVT en Terminale enseignement scientifique.</p>
+                <div class="hero__cta">
+                    <a class="btn" href="#chapitres">Chapitres</a>
+                    <a class="btn btn--ghost" href="#activites">Activités</a>
+                </div>
+                <br>
+            </div>
+            <div class="hero__art" aria-hidden="true">
+                <svg viewBox="0 0 600 400" class="blob">
+                    <defs>
+                        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="var(--grad-1)" />
+                            <stop offset="100%" stop-color="var(--grad-2)" />
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#g1)"
+                    d="M489 235c-21 75-86 133-164 149-77 16-166-9-210-66-43-57-40-145 3-204 43-59 123-89 199-77 76 11 147 63 168 132 20 69-6 140 4 66z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path d="M0,32L60,53.3C120,75,240,117,360,117.3C480,117,600,75,720,64C840,53,960,75,1080,80C1200,85,1320,75,1380,69.3L1440,64V0H0Z"></path>
+            </svg>
+        </div>
+    </section>
+
+  <!-- =========== Chapitres =========== -->
+    <section id="chapitres" class="section section--alt"> 
+        <div class="container">
+            <h2>Chapitres</h2>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <span class="dot"></span>
+                    <div class="timeline__content"><h3>Chapitre 1</h3><p>--</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <span class="dot"></span>
+                    <div class="timeline__content"><h3>Chapitre 2</h3><p>--</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <span class="dot"></span>
+                    <div class="timeline__content"><h3>Chapitre 3</h3><p>--</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- =========== Activités =========== -->
+    <section id="activites" class="section">
+        <div class="container">
+            <h2>Activités</h2>
+            <p class="lead">Activités à réaliser</p>
+            <div class="grid cards">
+                <article class="card card--protocol">
+                    <header><h3>Activités 1 - </h3></header>
+                    <ol>
+                        <li>--</li>
+                    </ol>
+                    <a class="btn" href="#">--</a> 
+                </article>
+                <article class="card card--protocol">
+                    <header><h3>Activités 3 - </h3></header>
+                    <ol>
+                        <li>--</li>                       
+                    </ol>
+                    <a class="btn" href="#">--</a> 
+                </article>
+                <article class="card card--protocol">
+                    <header><h3>Activités 3 - </h3></header>
+                    <ol>
+                        <li>--</li>
+                    </ol>
+                    <a class="btn" href="#">--</a> 
+                </article>
+            </div>
+        </div>
+    </section>
+
+  <!-- =========== Ressources =========== -->
+
+    <section id="ressources" class="section section--alt">
+        <div class="container">
+            <h2>Pour aller plus loin</h2>
+            <div class="resources">
+                <article class="resource">
+                    <h3>--</h3>
+                    <p>--</p>
+                    <a class="btn" href="#">--</a>
+                </article>
+
+                <article class="resource">
+                    <h3>--</h3>
+                    <p>--</p>
+                    <a class="btn" href="#">--</a>
+                </article>
+
+                <article class="resource">
+                    <h3>--</h3>
+                    <p>--</p>
+                    <a class="btn" href="#">--</a>                    
+                </article>
+            </div>
+        </div>
+    </section>
+
+<!-- =========== Footer =========== -->
+    <footer id="footer" class="site-footer">
+        <div class="container footer__grid">
+            <div>
+                <h3>ä - SVT</h3>
+                <p>Un site pour apprendre, tester et comprendre les Sciences de la Vie et la Terre.</p>
+            </div>   
+            <br>
+            <p class="legal"> &copy; <span id="year"></span> ä — Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
