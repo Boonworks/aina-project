@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sciences de la Vie et de la Terre</title>
+    <title>Naturä - Sciences de la Vie et de la Terre</title>
     <meta name="description" content="Cours, activités et ressources de SVT du collège au lycée." />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,6 @@
 
     <!--    ICONES      -->
     <link rel="icon" href="/img/web/logo.png" type="image/png">
-    <!--  <link rel="shortcut icon" href="/img/web/favicon.ico" type="image/x-icon">  -->
     <meta name="theme-color" content="#bff4b9">
     <meta name="background-color" content="#ccc">
 
@@ -24,21 +23,20 @@
         <div class="container nav">
             <a class="brand" href="index.html">
                 <img src="img/logo.png">
-                <span>Naturä</span>
-           </a>
-            <nav class="menu" aria-label="Navigation principale">
-                <a class="btn btn--small" href="index.html">Accueil</a>  
-                <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">☀️</button>
-            </nav>
+                <span> -- </span>
+            </a>
+            <a class="menu" href="index.html">
+                <img src="img/hirondelle.png">
+            </a>
         </div>
     </header>
 
-  <!-- =========== Hero =========== -->
+    <!-- =========== Hero =========== -->
     <section class="hero">
         <div class="container hero__inner">
             <div class="hero__text">
-                <h1>Avec un ä, la science a plus de vie</h1>
-                <p>Des cours clairs, des activités et des ressources pour explorer le vivant, la Terre et l’environnement.</p>
+                <h1>Naturä</h1> <!-- Avec un ä, la nature a plus de vie -->
+                <p>Des cours, des activités et des ressources pour explorer le vivant, la Terre et l’environnement.</p>
                 <div class="hero__cta">
                     <a class="btn" href="#classes">Classes</a>
                     <a class="btn btn--ghost" href="#ressources">Ressources</a>
@@ -46,18 +44,10 @@
                 <br>
             </div>
             <div class="hero__art" aria-hidden="true">
-                <svg viewBox="0 0 600 400" class="blob">
-                    <defs>
-                        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="var(--grad-1)" />
-                            <stop offset="100%" stop-color="var(--grad-2)" />
-                        </linearGradient>
-                    </defs>
-                    <path fill="url(#g1)"
-                    d="M489 235c-21 75-86 133-164 149-77 16-166-9-210-66-43-57-40-145 3-204 43-59 123-89 199-77 76 11 147 63 168 132 20 69-6 140 4 66z"/>
-                </svg>
+                <img src="img/soleil.png">
             </div>
         </div>
+
         <div class="wave" aria-hidden="true">
             <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
                 <path d="M0,32L60,53.3C120,75,240,117,360,117.3C480,117,600,75,720,64C840,53,960,75,1080,80C1200,85,1320,75,1380,69.3L1440,64V0H0Z"></path>
@@ -70,19 +60,30 @@
         <div class="container">
             <h2>Classes</h2>
             <p class="lead">Accède directement aux contenus de ta classe :</p>
+
             <h3 class="group-title">Lycée</h3>
             <div class="grid cards">
+
                 <article class="card">
-                    <header><h3>2<sup>nde</sup></h3><p>--</p></header>
+                    <header>
+                        <h3>Seconde</h3>
+                        <img src="img/feuille_0.png">
+                        <p>--</p>
+                    </header>
                     <ul><li>--</li><li>--</li><li>--</li></ul>
-                    <a class="btn" href="classes/seconde.html">Voir 2<sup>nde</sup></a>
+                    <a class="btn" href="classes/seconde.html">Cours et activités</a>
                 </article>
 
                 <article class="card">
-                    <header><h3>Terminale enseignement scientifique</h3><p>--</p></header>
+                    <header>
+                        <h3>Terminale enseignement scientifique</h3>
+                        <img src="img/feuille_1.png">
+                        <p>--</p>
+                    </header>
                     <ul><li>--</li><li>--</li><li>--</li></ul>
-                    <a class="btn" href="classes/terminale-enseignement-scientifique.html">Voir T<sub>ES</sub></a>
+                    <a class="btn" href="classes/terminale-enseignement-scientifique.html">Cours et activités</a>
                 </article>
+
             </div>
         </div>
     </section>
@@ -116,12 +117,11 @@
     <footer id="footer" class="site-footer">
         <div class="container footer__grid">
             <div>
-                <h3>ä - SVT</h3>
-                <p>Un site pour apprendre, tester et comprendre les Sciences de la Vie et la Terre.</p>
-            </div>   
-            <br>
-            <p class="legal"> &copy; <span id="year"></span> ä — Tous droits réservés.</p>
+                <h3>Naturä</h3>
+                <p class="legal"> &copy; <span id="year"></span> Tous droits réservés - ä - <a href="mentions.html">Mentions légales</href></p>
+            </div>
         </div>
+        <img src="img/bug.png">
     </footer>
     <script src="app.js"></script>
 </body>
