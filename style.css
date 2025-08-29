@@ -73,7 +73,7 @@ p.lead{ color:var(--muted); margin-top:-.25rem; }
 
 /* ===== Liens & boutons (inchangés, couleurs via variables) ===== */
 a{ color:var(--text); text-decoration:none; }
-a:hover{ color:var(--accent); text-decoration:underline; }
+a:hover{ color:var(--accent); text-decoration:none; }
 
 .btn{
   display:inline-block;
@@ -109,9 +109,10 @@ a:hover{ color:var(--accent); text-decoration:underline; }
 
 .nav{ display:flex; align-items:center; gap:1rem; padding:.75rem 0; }
 .brand{ display:flex; align-items:center; gap:.6rem; font-weight:800; color:var(--text); }
-.logo{ width:34px; height:34px; }
-.logo-ring{ fill:none; stroke:var(--accent); stroke-width:3; opacity:.65; }
-.logo-line{ fill:none; stroke:var(--primary); stroke-width:3; stroke-linecap:round; }
+.brand img {width: 86px !important; height: auto; display:block;}
+.brand img:hover {transform: scale(1.1); }
+.brand span {  font-size: 2rem;  line-height: 1; text-decoration: none;}
+
 
 .menu{
   margin-left:auto; display:flex; align-items:center; gap:.5rem;

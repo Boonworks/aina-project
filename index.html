@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sciences de la Vie et de la Terre</title>
     <meta name="description" content="Cours, activités et ressources de SVT du collège au lycée." />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-</head>
 
+    <!--    ICONES      -->
+    <link rel="icon" href="/img/web/logo.png" type="image/png">
+    <!--  <link rel="shortcut icon" href="/img/web/favicon.ico" type="image/x-icon">  -->
+    <meta name="theme-color" content="#bff4b9">
+    <meta name="background-color" content="#ccc">
+
+</head>
 <body>
-  <!-- ===== Barre de navigation ===== -->
+
+  <!-- =========== Nav Bar =========== -->
     <header class="site-header">
         <div class="container nav">
-            <a class="brand" href="#accueil" aria-label="Accueil SVT Lab">
-                <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
-                    <circle cx="32" cy="32" r="28" class="logo-ring" />
-                    <path d="M20 40c6-10 18-10 24 0M24 25c0 4 4 8 8 8s8-4 8-8" class="logo-line"/>
-                </svg>
-                <span>ä - SVT</span>
-            </a>
-
+            <a class="brand" href="index.html">
+                <img src="img/logo.png">
+                <span>Naturä</span>
+           </a>
             <nav class="menu" aria-label="Navigation principale">
                 <a class="btn btn--small" href="index.html">Accueil</a>  
                 <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">☀️</button>
@@ -29,16 +33,17 @@
         </div>
     </header>
 
-  <!-- ===== Hero ===== -->
-    <section id="accueil" class="hero">
+  <!-- =========== Hero =========== -->
+    <section class="hero">
         <div class="container hero__inner">
             <div class="hero__text">
-                <h1>Site de doudou</h1>
+                <h1>Avec un ä, la science a plus de vie</h1>
                 <p>Des cours clairs, des activités et des ressources pour explorer le vivant, la Terre et l’environnement.</p>
                 <div class="hero__cta">
-                    <a class="btn" href="#annees">Classes</a>
+                    <a class="btn" href="#classes">Classes</a>
                     <a class="btn btn--ghost" href="#ressources">Ressources</a>
                 </div>
+                <br>
             </div>
             <div class="hero__art" aria-hidden="true">
                 <svg viewBox="0 0 600 400" class="blob">
@@ -60,36 +65,11 @@
         </div>
     </section>
 
-  <!-- ===== Par années ===== -->
-    <section id="annees" class="section">
+  <!-- =========== Niveaux =========== -->
+    <section id="classes" class="section">
         <div class="container">
             <h2>Classes</h2>
-            <p class="lead">Accède directement aux contenus de ta classe</p>
-            <!--
-            <h3 class="group-title">Collège</h3>
-            <div class="grid cards">
-                <article class="card">
-                    <header><h3>6<sup>e</sup></h3><p>Découvrir le vivant et la Terre.</p></header>
-                    <ul><li>Être vivant & fonctions</li><li>Roches et paysages</li><li>Respiration</li></ul>
-                    <a class="btn btn--ghost" href="#">Voir 6<sup>e</sup></a>
-                </article>
-                <article class="card">
-                    <header><h3>5<sup>e</sup></h3><p>Corps humain & nutrition.</p></header>
-                    <ul><li>Alimentation</li><li>Reproduction</li><li>Ressources planétaires</li></ul>
-                    <a class="btn btn--ghost" href="#">Voir 5<sup>e</sup></a>
-                </article>
-                <article class="card">
-                    <header><h3>4<sup>e</sup></h3><p>Génétique & géologie dynamique.</p></header>
-                    <ul><li>Transmission</li><li>Volcans & séismes</li><li>Système nerveux</li></ul>
-                    <a class="btn btn--ghost" href="#">Voir 4<sup>e</sup></a>
-                </article>
-                <article class="card">
-                    <header><h3>3<sup>e</sup></h3><p>Évolution & santé.</p></header>
-                    <ul><li>ADN & mutations</li><li>Immunité</li><li>Prévention</li></ul>
-                    <a class="btn btn--ghost" href="#">Voir 3<sup>e</sup></a>
-                </article>
-            </div>
-            -->
+            <p class="lead">Accède directement aux contenus de ta classe :</p>
             <h3 class="group-title">Lycée</h3>
             <div class="grid cards">
                 <article class="card">
@@ -115,7 +95,7 @@
                 <article class="resource">
                     <h3>Banque d’images</h3>
                     <p>Images gratuites de SVT</p>
-                    <a class="btn" href="https://smart.servier.com/">Images</a>
+                    <a class="btn"  target="_blank" href="https://smart.servier.com/">Images</a>
                 </article>
 
                 <article class="resource">
@@ -132,7 +112,7 @@
     </section>
 
 
-<!-- =========== FOOTER =========== -->
+<!-- =========== Footer =========== -->
     <footer id="footer" class="site-footer">
         <div class="container footer__grid">
             <div>

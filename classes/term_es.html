@@ -3,34 +3,30 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SVT 2nde</title>
+    <title>SVT Terminale Enseignement Scientifique</title>
     <meta name="description" content="Cours, activités et ressources de SVT du collège au lycée." />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..//style.css" />
 </head>
-
 <body>
-  <!-- ===== Barre de navigation ===== -->
+    
+  <!-- =========== Nav Bar =========== -->
     <header class="site-header">
         <div class="container nav">
-            <a class="brand" href="#accueil" aria-label="Accueil SVT Lab">
-                <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
-                    <circle cx="32" cy="32" r="28" class="logo-ring" />
-                    <path d="M20 40c6-10 18-10 24 0M24 25c0 4 4 8 8 8s8-4 8-8" class="logo-line"/>
-                </svg>
-                <span>ä - SVT</span>
-            </a>
-
+            <a class="brand" href="index.html">
+                <img src="img/logo.png">
+                <span>Naturä</span>
+           </a>
             <nav class="menu" aria-label="Navigation principale">
-                <a class="btn btn--small" href="..//index.html">Accueil</a>
+                <a class="btn btn--small" href="index.html">Accueil</a>  
                 <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">☀️</button>
             </nav>
         </div>
     </header>
 
-  <!-- ===== Hero ===== -->
-    <section id="accueil" class="hero">
+  <!-- =========== Hero =========== -->
+    <section class="hero">
         <div class="container hero__inner">
             <div class="hero__text">
                 <h1>Terminale Enseignement Scientifique</h1>
@@ -143,26 +139,17 @@
         </div>
     </section>
 
-
-<!-- =========== FOOTER =========== -->
-    <footer id="contact" class="site-footer">
+<!-- =========== Footer =========== -->
+    <footer id="footer" class="site-footer">
         <div class="container footer__grid">
             <div>
                 <h3>ä - SVT</h3>
                 <p>Un site pour apprendre, tester et comprendre les Sciences de la Vie et la Terre.</p>
-            </div>    
-            <!--
-             <form class="contact" action="#" method="post">
-                <label for="mail">Ton e-mail</label>
-                <input id="mail" name="email" type="email" placeholder="prenom.nom@email.com" required />
-                <label for="msg">Message</label>
-                <textarea id="msg" name="message" rows="3" placeholder="Ta question, ton besoin…"></textarea>
-                <button class="btn" type="submit">Envoyer</button>
-            </form> 
-            -->
+            </div>   
+            <br>
+            <p class="legal"> &copy; <span id="year"></span> ä — Tous droits réservés.</p>
         </div>
-    <!--<p class="legal">© <span id="year"></span> ä — Tous droits réservés.</p> -->  
     </footer>
-    <script src="..//app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
